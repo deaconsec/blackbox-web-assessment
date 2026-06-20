@@ -50,7 +50,7 @@ Full assessment lifecycle: recon → analysis → exploitation modeling → reme
 ## Report
 
 See [`Pentest_Report_Public.pdf`](./Pentest_Report_Public.pdf) for the full redacted report.
-![Nmap --script vuln Scan: offene Ports und CSRF-Prüfung (redacted)](screenshots/nmap_vuln_scan.png)
+![Nmap --script vuln Scan: offene Ports und CSRF-Prüfung (redacted)](screenshots/recon_nmap_redacted.png)
 ---
 
 This work was performed legally and with authorization, for educational and portfolio purposes.
