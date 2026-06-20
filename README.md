@@ -37,6 +37,9 @@ A black-box external penetration test of an authorized live WordPress site. Scop
 | 8 | Slowloris DoS (CVE-2007-6750) | Low | Fixed |
 
 No critical, externally exploitable vulnerabilities were found. A Cloudflare reverse proxy plus server-side protection plugins provided a strong baseline; the remaining best-practice gaps were fixed with the operator and confirmed by a re-audit.
+[Nmap --script vuln Scan: offene Ports und CSRF-Prüfung (redacted)](screenshots/recon_nmap_redacted.png)
+
+
 
 ## Methodology
 
@@ -50,7 +53,6 @@ Full assessment lifecycle: recon → analysis → exploitation modeling → reme
 ## Report
 
 See [`Pentest_Report_Public.pdf`](./Pentest_Report_Public.pdf) for the full redacted report.
-[Nmap --script vuln Scan: offene Ports und CSRF-Prüfung (redacted)](screenshots/recon_nmap_redacted.png)
 ---
 
 This work was performed legally and with authorization, for educational and portfolio purposes.
