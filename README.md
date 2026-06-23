@@ -43,7 +43,7 @@ No critical, externally exploitable vulnerabilities were found. A Cloudflare rev
 
 ## Methodology
 
-Full assessment lifecycle: recon → analysis → exploitation modeling → remediation → verification. A few specifics worth noting:
+Full assessment lifecycle: recon > analysis > exploitation modeling > remediation > verification. A few specifics worth noting:
 
 - Risk ratings adjusted for compensating controls - e.g. Slowloris (CVE-2007-6750) downgraded from Medium to Low because Cloudflare terminates all TCP connections before they reach the origin.
 - HTML injection vs. CSS injection distinguished precisely (the comment field allowed inline-style HTML, not CSS-selector data exfiltration).
